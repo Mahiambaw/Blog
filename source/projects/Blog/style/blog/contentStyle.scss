@@ -1,0 +1,56 @@
+@import"../nav.scss";
+
+
+*{
+  margin:0;
+}
+body{
+  font-family:Aria, sans-serif;
+  padding:0.3%;
+  text-align:center;
+  background: url(/image/reiverandmountain.jpeg) no-repeat;
+  background-size:cover;
+}
+.container{
+  text-align:center;
+  
+}
+nav_bar{  height: auto;
+  padding: 0;
+
+}
+.nav_log a{
+    color:white;
+    font-size:4rem;
+}
+.nav_items li a{
+    color:white;
+}
+
+h1{
+  width: 100%; 
+   text-align: center;
+   margin-top:3rem; 
+   margin-top:3rem; 
+   overflow: hidden;
+   color:white;
+}
+  
+
+p{
+  display: block;
+  display:absloute;
+
+  width: 100%; 
+   text-align: center;
+   font-weight: 5rem;;
+   margin-top:1rem; 
+   color:white;
+   
+}
+.image{
+  display:inline-block;
+  margin:0 auto;
+  width:100px;
+  height:50%;
+}

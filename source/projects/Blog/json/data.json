@@ -1,0 +1,120 @@
+[
+        {
+                "name": "nav_menu",
+                "id": 1,
+                "logo": "../image/LazyLiciouslogo.svg",
+                "list": [
+                        "HOME",
+                        "BLOG",
+                        "ABOUT",
+                        "CONTACT"
+                ],
+                "navPath": [
+                        "/index.html",
+                        "../blog/blog.html",
+                        "../about/about.html",
+                        "../contactUs/contactus.html"
+                ]
+        },
+        {
+                "name": "jsonData",
+                "id": 2,
+                "title": "How to be LazyLicious in just 10 days",
+                "shortSummary": "You will bring your inner lazyness in just 10 steps",
+                "content": [
+                        "1 Your best friend is your bed",
+                        "2 Having goals is for overachivers",
+                        "3 Be a procrastinator",
+                        "4 You have all the skills you wanted to learn for the last five years, well why start now",
+                        "5 Do the minim job requried, you do not need that promtion",
+                        "6 Do the minim job requried, you do not need that promtion",
+                        "7 All your important time is devoted for your important things like vidoegames, movies, sleep. Everything else is a hussle ",
+                        "8 House cores are for the non-cretive",
+                        "9 Why exercise today when there is tomrrow ",
+                        "10 If you don't try , you will not fail "
+                ],
+                "date": "14-09-2021",
+                "author": "",
+                "image": "../image/background.webp"
+        },
+        {
+                "name": "jsonData",
+                "id": 3,
+                "title": "How To Be A Happy LazyLicious",
+                "shortSummary": "You will live your best happy life by embracing your inner LazyLicious",
+                "content": "Are you tired everyone and everything you read telling you you can do better?   You come bo the right blog , here we are telling you be embrace your inner lazyiness and to be proud of it.",
+                "date": "15-09-2021",
+                "author": "Lazy",
+                "image": "../image/parallax moneky.webp"
+        },
+        {
+                "name": "jsonData",
+                "id": 4,
+                "title": "How to Win And Still Be LazyLicious",
+                "shortSummary": "You will get to have the best of both worlds.",
+                "content": "Here are the LazyLicious ,  we would like to tell you that you are a winner already. You  have no goal to achive, you have no future to plan . You are winning at life by being you and  loving your Lazy life.",
+                "date": "18-09-2021",
+                "author": "klara",
+                "image": "../image/WinLazy.webp"
+        },
+        {
+                "name": "jsonData",
+                "id": 5,
+                "title": "Update your life with LazyLicious Life styles ",
+                "shortSummary": "Get to the lates LazyLicious life style ",
+                "content": "Here are the new ways to get into the LazyLicious Life sytle ",
+                "date": "20-09-2021",
+                "author": "klara",
+                "image": "../image/lionsleeping.jpeg"
+        },
+        {
+                "name": "jsonData",
+                "id": 6,
+                "title": "New trends of LazyLicious ",
+                "shortSummary": "Be trendy With LazyLicious ",
+                "content": "Here are the new ways to get into the LazyLicious Life sytle ",
+                "date": "22-09-2021",
+                "author": "klara",
+                "image": "../image/tigersleeping.jpg"
+        },
+        {
+                "name": "jsonData",
+                "id": 7,
+                "title": "update your LazyLicious Life ",
+                "shortSummary": "Be Bold by going LazyLicious ",
+                "content": "Here are the new ways to get into the LazyLicious Life sytle ",
+                "date": "22-09-2021",
+                "author": "Maya",
+                "image": "../image/dog &hen.jpeg"
+        },
+        {
+                "name": "jsonData",
+                "id": 8,
+                "title": "Be the first to embrace your inner LazyLicious ",
+                "shortSummary": "Be proud to embrace your inner LazyLicious",
+                "content": "Here are the new ways to get into the LazyLicious Life sytle ",
+                "date": "23-09-2021",
+                "author": "Hera",
+                "image": "../image/deer.jpeg"
+        },
+        {
+                "name": "jsonData",
+                "id": 9,
+                "title": "Thrive in your  LazyLicious life style",
+                "shortSummary": "Resons to love your LazyLicious life",
+                "content": "Here are the new ways to get into the LazyLicious Life sytle ",
+                "date": "23-09-2021",
+                "author": "Hera",
+                "image": "../image/restingLions.jpeg"
+        },
+        {
+                "name": "jsonData",
+                "id": 10,
+                "title": "How to florish in Being LazyLicious",
+                "shortSummary": "Things to do to be a sucessful LazyLicious",
+                "content": "Here are the new ways to get into the LazyLicious Life sytle ",
+                "date": "23-09-2021",
+                "author": "Hera",
+                "image": "../image/dog sleeping.webp"
+        }
+]

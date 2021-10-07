@@ -1,0 +1,87 @@
+.row {
+  margin-left: 50px;
+}
+
+footer {
+  width: 100%;
+  bottom: 0;
+  background: -webkit-gradient(linear, left top, right top, from(#00093c), to(#2d0b00));
+  background: linear-gradient(to right, #00093c, #2d0b00);
+  color: #ffff;
+  padding: 100px 0 30px;
+  border-top-left-radius: 125px;
+  font-size: 13px;
+}
+
+.row {
+  width: 85%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.col {
+  -ms-flex-preferred-size: 20%;
+      flex-basis: 20%;
+  padding: 10px;
+}
+
+.col img {
+  height: 200px;
+  margin-top: -3rem;
+  margin-bottom: 30px;
+}
+
+.col h3 {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-bottom: 40px;
+  margin-top: -1rem;
+}
+
+.col p {
+  margin-top: -3rem;
+}
+
+ul li {
+  list-style: none;
+  margin-bottom: 12px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.social-list .fa {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 35px;
+  cursor: pointer;
+  color: #000;
+  background: white;
+}
+
+hr {
+  width: 90%;
+  border: 0;
+  border-bottom: 1px solid #CCC;
+  margin: 20px auto;
+}
+
+.copyright {
+  text-align: center;
+}
+/*# sourceMappingURL=footer.css.map */

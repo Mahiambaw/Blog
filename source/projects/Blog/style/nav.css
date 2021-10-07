@@ -1,0 +1,87 @@
+.nav_menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #545454;
+}
+
+.nav_list {
+  font-size: 1.4em;
+}
+
+.nav_logo {
+  font-size: 1.6rem;
+  padding-right: 3rem;
+}
+
+.nav_list li {
+  display: inline-block;
+  padding: 2rem;
+}
+
+.nav_items a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Raleway'sans-serif;
+}
+
+a:hover {
+  color: #c1c1c1;
+}
+
+.toggle {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.8em;
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+.toggle .bar {
+  height: 3px;
+  width: 100%;
+  background-color: black;
+  border-radius: 10pX;
+}
+
+/*----- media qurery----*/
+@media only screen and (max-width: 750px) {
+  .nav .nav_menu, .nav .nav_items {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .toggle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .nav_items {
+    display: none;
+  }
+}
+
+/*---x-- media qurery--X--*/
+/*# sourceMappingURL=nav.css.map */

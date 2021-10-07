@@ -1,0 +1,141 @@
+@import"../nav.scss";
+
+*{
+  margin:0;
+  padding:0;
+  font-family: "Open Sans" sans-serif;
+  box-sizing: border-box;
+}
+
+
+html{
+  font-size:10px ;
+}
+body{
+  background-color:black;
+
+}
+.nav_bar{  height: auto;
+
+}
+.nav_log a{
+    color:white;
+    font-size:4rem;
+}
+.nav_items li a{
+    color:white;
+}
+
+.slideshow{
+  width:100%;
+  height:100vh;
+  position: relative;
+  overflow:hidden;
+
+}
+.slideshow-item{
+  width:inherit;
+  height: inherit;
+  position: absolute;
+  opacity:0; 
+  animation:cycleImages 24s infinite;
+}
+
+
+ .slideshow-item img{
+    
+  width:100%;
+  height: 100%;
+  object-fit: cover;
+  animation:zoom 24s infinite;
+}
+
+
+.slideshow-item-text{
+  max-width: 50%;
+  position:absolute;
+  top:50%;
+  left:0;
+  transform: translateY(-50%); // align the items prefectly in the middle 
+  background-color:rgba(0,0,0,.8);
+  color: white;
+  padding:10rem 5rem;
+}
+.slideshow-item :nth-child(1),.slideshow-item:nth-child(1) img
+{
+  animation-delay:0s;
+}
+.slideshow-item:nth-child(2),.slideshow-item:nth-child(2) img
+{
+  animation-delay:3s;
+}
+.slideshow-item:nth-child(3),.slideshow-item:nth-child(3) img
+{
+  animation-delay:8s;
+}
+.slideshow-item:nth-child(4),.slideshow-item:nth-child(4) img
+{
+  animation-delay:13s;
+}
+.slideshow-item-text h5{
+  font-size: 5rem;
+  font-family:sans-serif;
+  text-transform:uppercase;
+  letter-spacing: 3px;
+  margin-bottom:2.5rem;
+
+}
+.slideshow-item-text p{
+  font-size: 1.6rem;
+  font-family:sans-serif;
+  letter-spacing: 1px;
+  font-weight: 300;
+
+}
+
+@keyframes cycleImages{
+  25%{
+     opacity:1;
+  }
+  40%{
+     opacity:0;
+  }
+}
+@keyframes zoom{
+  100%{
+    transform:scale(1.3);
+  }
+}
+@media screen and (max-width: 1000px){
+  
+  .slideshow-item-text{
+    max-width: 70%;
+    
+    padding:5rem 1rem;
+  }
+  .slideshow-item-text h5{
+    font-size:4rem;
+}
+  
+}
+
+@media screen and (max-width: 767px){
+  
+  .slideshow-item-text{
+    max-width: 100%;
+    padding:2rem;
+    top:initial;
+    bottom:0;
+    transform:initial
+  }
+  .slideshow-item-text h5{
+    font-size:3rem;
+  
+  }
+  .slideshow-item-text p{
+    font-size: 1.4rem;
+
+  }
+}
+  
+

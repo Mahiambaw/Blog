@@ -1,0 +1,27 @@
+@import"../nav.scss";
+@import"../blog/body.scss";
+
+ *{
+margin:0;
+height:100%;
+
+}
+body{
+    background-image:url("/image/sparkls.jpeg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width:100%;
+}
+.nav_bar{  height: auto;
+
+}
+.nav_log a{
+    color:white;
+    font-size:4rem;
+}
+.nav_items li a{
+    color:white;
+}
+
