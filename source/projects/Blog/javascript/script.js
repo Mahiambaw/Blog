@@ -18,15 +18,16 @@ function load() {
 
 }
 function aboutLoad() {
-    navigation();
+    navigation()
 
 }
+
 function contactLoad() {
     navigation();
 }
 
 
-
+// gets a json wrodpress 
 async function getJsonWP() {
 
     const response = await fetch("http://localhost:8888/wordpress/wp-json/wp/v2/posts?_embed");
@@ -35,6 +36,7 @@ async function getJsonWP() {
     return jsonData;
 
 }
+// gets the json data 
 async function getJson() {
 
     const response = await fetch("../json/data.json");
